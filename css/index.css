@@ -79,7 +79,7 @@ section h2 {
 /* Navigation bar styles ============= */
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
-  background-color:#64a19d;
+  background-color:#5e6564;
   transition: all .35s;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
@@ -87,7 +87,7 @@ section h2 {
 } 
 
 #mainNav .navbar-brand {
-  color: #fdcc52;
+  color: #fd52c7;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
@@ -129,20 +129,51 @@ section h2 {
   color: #fdcc52;
 }
 
+
 /* Hero section ============= */
+header.masthead {
+  position: relative;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  color: white;
+  background: url("../images/bg-img.svg");
+}
+
+header.masthead .header-content {
+  max-width: 500px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+header.masthead .header-content h1 {
+  font-size: 30px;
+}
+
+header.masthead .device-container {
+  max-width: 325px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header.masthead .device-container .screen img {
+  border-radius: 3px;
+}
 
 
 img {
+
   margin: 30px;
   background-image: ("../images/background.jpg");
+  height: 20%;
 }
 .about {
-  color: black;
+  color: rgb(206, 48, 48);
   background-image: ("../images/background.jpg");
 }
 
 .para {
-  color: #222222;
+  color: #f72424;
 }
 
 
