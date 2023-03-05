@@ -9,7 +9,7 @@ body {
 
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #343a40!important;
+  background-color: #343a40 !important;
 }
 
 html {
@@ -176,33 +176,23 @@ header.masthead .device-container {
 header.masthead .device-container .screen img {
   border-radius: 3px;
 }
+
 .about-me-txt {
   color: rgb(237, 237, 246);
- 
+
 }
-#about {
-  font-family: 'Jura';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  background-image: linear-gradient(150deg, #666666, #444444, #cccccc, #dddddd, #999999);
-  margin-top: 30px;
-  transition: background-color 0.3s ease-in-out;
-  
-}
+
+
 .social-icons a i {
   color: #ff69b4;
 }
 
-#about:hover,
-#about:focus {
-  color: #fd52c7;
-}
 
 
 .text-uppercase {
   color: rgb(16, 16, 17);
 }
+
 .card-title {
   color: #222222;
 }
@@ -226,3 +216,41 @@ header.masthead .device-container .screen img {
   background-color: rgb(240, 248, 226)
 }
 
+
+.sub-heading {
+  text-decoration: none;
+  position: relative;
+}
+
+.sub-heading:after {
+  position: absolute;
+  content: '';
+  width: -10%;
+  height: 10%;
+  /* adjust this to move up and down. you may have to adjust the line height of the paragraph if you move it down a lot. */
+  bottom: -4px;
+
+
+  /****** 
+ optional values below 
+ ******/
+
+  /* center - (optional) use with adjusting width   */
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 50%;
+  background: green;
+
+  /* optional animation */
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.sub-heading:hover:after {
+  width: 10%;
+  background: orange;
+}
