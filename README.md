@@ -1,4 +1,4 @@
-[live-website](https://fadumasaidcodes.github.io/portfolio-2/)
+[Deployed website](https://fadumasaidcodes.github.io/portfolio-2/)
 # Portfolio 
 
 This is a portfolio website built using HTML, CSS, and Bootstrap. It contains information about me, my projects, and my skills.
