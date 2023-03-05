@@ -3,8 +3,12 @@
 
 html,
 body {
-  width: 100%;
-  height: 100%;
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+
+  color: white;
+  background-image: url(../images/bull2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 html {
@@ -16,27 +20,14 @@ font-style: normal;
 font-weight: 400 */
 
 
-.sub-heading {
-  font-family: 'Jura';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  background-image: linear-gradient(150deg, #666666, #444444, #cccccc, #dddddd, #999999);
-  margin-top: 30px;
-  transition: background-color 0.3s ease-in-out;
-}
 
-.sub-heading:hover,
-.sub-heading:focus {
-  color: #fd52c7;
-}
 
 
 body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 
   color: white;
-  background-image: url(../images/background.jpg);
+  
   background-size: cover;
   background-position: center;
 
@@ -181,7 +172,10 @@ header.masthead .device-container {
 header.masthead .device-container .screen img {
   border-radius: 3px;
 }
-
+.about-me-txt {
+  color: rgb(11, 11, 12);
+ 
+}
 #about {
   font-family: 'Jura';
   font-style: normal;
@@ -226,3 +220,4 @@ header.masthead .device-container .screen img {
 .card-body {
   background-color: rgb(240, 248, 226)
 }
+
