@@ -9,7 +9,7 @@ This is a portfolio website built using HTML, CSS, and Bootstrap. It contains in
 * [Contributing](#contributing)
 
 ## Installation
-To use this website, simply clone the repository and open index.html in your web browser:https://github.com/fadumasaidcodes/portfolio-2
+To use this website, simply clone the repository and open index.html in your web browser.
 
 
 
