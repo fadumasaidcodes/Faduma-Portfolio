@@ -1,5 +1,6 @@
 /* Global styles ============= */
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto+Slab&display=swap');
+
 html,
 body {
   width: 100%;
@@ -20,9 +21,16 @@ font-weight: 400 */
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  background-image: linear-gradient(150deg, pink, black, grey, white, red);
+  background-image: linear-gradient(150deg, #666666, #444444, #cccccc, #dddddd, #999999);
   margin-top: 30px;
+  transition: background-color 0.3s ease-in-out;
 }
+
+.sub-heading:hover,
+.sub-heading:focus {
+  color: #fd52c7;
+}
+
 
 body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
@@ -39,9 +47,17 @@ a {
   transition: all .35s;
 }
 
+
 a:hover,
 a:focus {
   color: #fcbd20;
+}
+
+.list-group-item {
+  background-color: transparent;
+  color: white;
+  list-style-type: disc;
+  margin-left: 1rem;
 }
 
 hr {
@@ -165,46 +181,44 @@ header.masthead .device-container .screen img {
   border-radius: 3px;
 }
 
-
-img {
-
-  margin: 30px;
-  background-image: ("../images/background.jpg");
-  height: 20%;
-}
-
-.about {
-  color: rgb(206, 48, 48);
-  background-image: ("../images/background.jpg");
-}
-
-.para {
-  color: #f72424;
-}
-
-
-.lead {
-  color: #222222;
-}
-
-.h1 {
-  color: black;
-}
-
-.card-img-top {
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px);
-  width: 150px;
-}
-
-.card-body card-title card-text text-black {
-  color: #222222;
-}
-
-h3 {
-  color: black;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  /* font-weight: bold; */
+#about {
+  font-family: 'Jura';
   font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  background-image: linear-gradient(150deg, #666666, #444444, #cccccc, #dddddd, #999999);
+  margin-top: 30px;
+  transition: background-color 0.3s ease-in-out;
 }
+.social-icons a i {
+  color: #ff69b4;
+}
+
+#about:hover,
+#about:focus {
+  color: #fd52c7;
+}
+
+
+.text-uppercase {
+  color: rgb(16, 16, 17);
+}
+.card-title {
+  color: #222222;
+}
+
+.skills3 {
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  background-image: linear-gradient(150deg, #666666, #444444, #cccccc, #dddddd, #999999);
+  margin-top: 30px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.skills3:hover,
+.skills3:focus {
+  color: #fd52c7;
+}
+
