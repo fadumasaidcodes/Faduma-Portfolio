@@ -6,9 +6,10 @@ body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 
   color: white;
-  background-image: url(../images/bull2.jpeg);
+
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #343a40!important;
 }
 
 html {
@@ -23,11 +24,12 @@ font-weight: 400 */
 
 
 
+
 body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 
   color: white;
-  
+
   background-size: cover;
   background-position: center;
 
@@ -148,9 +150,11 @@ header.masthead {
   width: 100%;
   padding-top: 150px;
   padding-bottom: 100px;
-  color: white;
-  border-radius: 50% 50% 40% 40%;
-  background: url("../images/bg-img.svg");
+  color: rgb(235, 225, 225);
+
+  background-image: url("../images/back.png");
+  background-size: cover;
+  background-position: center;
 }
 
 header.masthead .header-content {
@@ -173,7 +177,7 @@ header.masthead .device-container .screen img {
   border-radius: 3px;
 }
 .about-me-txt {
-  color: rgb(11, 11, 12);
+  color: rgb(237, 237, 246);
  
 }
 #about {
@@ -184,6 +188,7 @@ header.masthead .device-container .screen img {
   background-image: linear-gradient(150deg, #666666, #444444, #cccccc, #dddddd, #999999);
   margin-top: 30px;
   transition: background-color 0.3s ease-in-out;
+  
 }
 .social-icons a i {
   color: #ff69b4;
