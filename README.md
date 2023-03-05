@@ -25,7 +25,7 @@ The website contains the following sections:
 * Skills
 * Contact
 
-You can navigate to each section using the navbar at the top of the page. The Portfolio section contains information about my projects, including links to their GitHub repositories and live versions (if available).
+You can navigate to each section using the navbar at the top of the page. The Portfolio section contains information about my projects, including links to their GitHub repositories and live versions.
 
 ## This website was built using the following tools and resources:
 
