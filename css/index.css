@@ -158,6 +158,7 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
+  border-radius: 50% 50% 40% 40%;
   background: url("../images/bg-img.svg");
 }
 
@@ -222,3 +223,6 @@ header.masthead .device-container .screen img {
   color: #fd52c7;
 }
 
+.card-body {
+  background-color: rgb(240, 248, 226)
+}
