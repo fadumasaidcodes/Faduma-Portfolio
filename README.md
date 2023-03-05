@@ -1,5 +1,5 @@
 # Portfolio 
-
+[live-website](https://fadumasaidcodes.github.io/portfolio-2/)
 This is a portfolio website built using HTML, CSS, and Bootstrap. It contains information about me, my projects, and my skills.
 
 ## Table of Contents 
@@ -43,11 +43,5 @@ MIT License
 Copyright (c) [2023] [fadumasaidcodes]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
 
 
