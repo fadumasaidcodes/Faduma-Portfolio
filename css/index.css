@@ -144,15 +144,13 @@ section h2 {
 }
 
 
-/* Hero section ============= */
 header.masthead {
   position: relative;
   width: 100%;
   padding-top: 150px;
   padding-bottom: 100px;
-  color: rgb(235, 225, 225);
-
-  background-image: url("../images/back.png");
+  color: #ff8bff;
+  background-color: #193718;
   background-size: cover;
   background-position: center;
 }
@@ -173,14 +171,33 @@ header.masthead .device-container {
   margin-left: auto;
 }
 
-header.masthead .device-container .screen img {
-  border-radius: 3px;
+header.masthead .device-container img {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  object-fit: cover;
+  margin: 20px 0;
 }
 
 .about-me-txt {
-  color: rgb(237, 237, 246);
-
+  color: #ff8bff;
 }
+
+
+.sub-heading {
+  font-size: 40px;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
 
 
 .social-icons a i {
