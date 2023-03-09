@@ -9,7 +9,7 @@ body {
 
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #343a40 !important;
+  background-color:  #222222;
 }
 
 html {
@@ -84,7 +84,9 @@ p {
 section {
   padding: 100px 0;
 }
-
+h5 {
+  margin-top: 20px;
+}
 section h2 {
   font-size: 50px;
 }
@@ -214,20 +216,9 @@ header.masthead .device-container img {
   color: #222222;
 }
 
-.skills3 {
-  font-family: 'Jura';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  background-image: linear-gradient(150deg, #666666, #444444, #cccccc, #dddddd, #999999);
-  margin-top: 30px;
-  transition: background-color 0.3s ease-in-out;
-}
 
-.skills3:hover,
-.skills3:focus {
-  color: #fd52c7;
-}
+
+
 
 .card-body {
   background-color: rgb(240, 248, 226)
@@ -274,4 +265,91 @@ header.masthead .device-container img {
 
 #space {
   margin-top: 20px;
+}
+
+#skills-section {
+  background-color: #f7f7f7;
+  padding: 60px 0;
+}
+
+#skills-section h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #555555;
+}
+
+.skill-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 40px 20px;
+  text-align: center;
+  margin: 20px;
+  height: 250px;
+  transition: all 0.3s ease-in-out;
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.skill-card i {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.skill-card h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #0f0f0f;
+}
+
+.skill-card p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #555555;
+  margin-bottom: 0;
+}
+
+.skill-card.blue {
+  border-top: 5px solid #007bff;
+}
+
+.skill-card.red {
+  border-top: 5px solid #dc3545;
+}
+
+.skill-card.yellow {
+  border-top: 5px solid #ffc107;
+}
+
+.skill-card.purple {
+  border-top: 5px solid #6f42c1;
+}
+
+.skills-desc {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.skills-desc h3 {
+  font-size: 3rem;
+  font-weight: bold;
+ 
+}
+
+.skills-desc p {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  color: #555555;
 }
