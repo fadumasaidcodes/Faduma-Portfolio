@@ -353,3 +353,6 @@ header.masthead .device-container img {
   margin-bottom: 80px;
   color: #555555;
 }
+.card-body {
+  background-color: #e9ecef;
+}
