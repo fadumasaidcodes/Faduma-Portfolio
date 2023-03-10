@@ -1,4 +1,4 @@
-[Deployed website](https://github.com/fadumasaidcodes/Faduma-Portfolio-bootstrap)
+[Deployed website](https://fadumasaidcodes.github.io/Faduma-Portfolio-bootstrap/)
 # Portfolio 
 
 This is a portfolio website built using HTML, CSS, and Bootstrap. It contains information about me, my projects, and my skills.
