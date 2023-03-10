@@ -195,6 +195,9 @@ header.masthead .device-container img {
 }
 
 
+.about {
+  background: linear-gradient(#fdcc52, #fdc539);
+}
 
 
 
@@ -355,5 +358,91 @@ header.masthead .device-container img {
 }
 .card-body {
   background-color: #e9ecef;
-;
+
+}
+/*-- Home animation source Nooray Yemon: https://codepen.io/yemon/pen/pWoROm adjusted to brand preference ---*/
+#flip {
+  height: 45px;
+  overflow: hidden;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#flip > div > div {
+  color: #fff;
+  text-align: center;
+  padding: 4px 12px;
+  height: 55px;
+  margin-bottom: 45px;
+  display: inline-block;
+}
+
+#flip div:first-child {
+  -webkit-animation: show 5s linear infinite;
+          animation: show 5s linear infinite;
+}
+
+#flip div div {
+  background: #ea4492;
+}
+#flip div:first-child div {
+  background: #428cd4;
+}
+#flip div:last-child div {
+  background: #c2649a;
+}
+
+@-webkit-keyframes show {
+  0% {
+    margin-top: -270px;
+  }
+  5% {
+    margin-top: -180px;
+  }
+  33% {
+    margin-top: -180px;
+  }
+  38% {
+    margin-top: -90px;
+  }
+  66% {
+    margin-top: -90px;
+  }
+  71% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -270px;
+  }
+}
+
+@keyframes show {
+  0% {
+    margin-top: -270px;
+  }
+  5% {
+    margin-top: -180px;
+  }
+  33% {
+    margin-top: -180px;
+  }
+  38% {
+    margin-top: -90px;
+  }
+  66% {
+    margin-top: -90px;
+  }
+  71% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -270px;
+  }
 }
