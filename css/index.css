@@ -360,7 +360,7 @@ header.masthead .device-container img {
   background-color: #e9ecef;
 
 }
-/*-- Home animation source Nooray Yemon: https://codepen.io/yemon/pen/pWoROm adjusted to brand preference ---*/
+
 #flip {
   height: 45px;
   overflow: hidden;
@@ -445,4 +445,28 @@ header.masthead .device-container img {
   100% {
     margin-top: -270px;
   }
+}
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #f00909;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+}
+
+card-header:first-child {
+  background-color: #44eac6;
+  /* border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0; */
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card-body {
+  background-color: #f2f2ed;
 }
