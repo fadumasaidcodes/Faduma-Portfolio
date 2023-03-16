@@ -9,7 +9,7 @@ body {
 
   background-repeat: no-repeat;
   background-size: cover;
-  background-color:  #222222;
+  background-color: #222222;
 }
 
 html {
@@ -84,9 +84,11 @@ p {
 section {
   padding: 100px 0;
 }
+
 h5 {
   margin-top: 20px;
 }
+
 section h2 {
   font-size: 50px;
 }
@@ -347,7 +349,7 @@ header.masthead .device-container img {
 .skills-desc h3 {
   font-size: 3rem;
   font-weight: bold;
- 
+
 }
 
 .skills-desc p {
@@ -356,6 +358,7 @@ header.masthead .device-container img {
   margin-bottom: 80px;
   color: #555555;
 }
+
 .card-body {
   background-color: #e9ecef;
 
@@ -369,7 +372,7 @@ header.masthead .device-container img {
   text-transform: uppercase;
 }
 
-#flip > div > div {
+#flip>div>div {
   color: #fff;
   text-align: center;
   padding: 4px 12px;
@@ -380,15 +383,17 @@ header.masthead .device-container img {
 
 #flip div:first-child {
   -webkit-animation: show 5s linear infinite;
-          animation: show 5s linear infinite;
+  animation: show 5s linear infinite;
 }
 
 #flip div div {
   background: #ea4492;
 }
+
 #flip div:first-child div {
   background: #428cd4;
 }
+
 #flip div:last-child div {
   background: #c2649a;
 }
@@ -397,24 +402,31 @@ header.masthead .device-container img {
   0% {
     margin-top: -270px;
   }
+
   5% {
     margin-top: -180px;
   }
+
   33% {
     margin-top: -180px;
   }
+
   38% {
     margin-top: -90px;
   }
+
   66% {
     margin-top: -90px;
   }
+
   71% {
     margin-top: 0px;
   }
+
   99.99% {
     margin-top: 0px;
   }
+
   100% {
     margin-top: -270px;
   }
@@ -424,28 +436,36 @@ header.masthead .device-container img {
   0% {
     margin-top: -270px;
   }
+
   5% {
     margin-top: -180px;
   }
+
   33% {
     margin-top: -180px;
   }
+
   38% {
     margin-top: -90px;
   }
+
   66% {
     margin-top: -90px;
   }
+
   71% {
     margin-top: 0px;
   }
+
   99.99% {
     margin-top: 0px;
   }
+
   100% {
     margin-top: -270px;
   }
 }
+
 .card {
   position: relative;
   display: -ms-flexbox;
@@ -456,7 +476,7 @@ header.masthead .device-container img {
   word-wrap: break-word;
 
   background-clip: border-box;
-  border: 1px solid rgba(0,0,0,.125);
+  border: 1px solid rgba(0, 0, 0, .125);
   border-radius: 0.25rem;
 }
 
@@ -469,4 +489,7 @@ card-header:first-child {
 
 .card-body {
   background-color: #f2f2ed;
+}
+.contact-card {
+  margin-right: 900px;
 }
