@@ -333,13 +333,14 @@ header.masthead .device-container img {
 }
 
 .skill-card h3 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #0f0f0f;
 }
+
 
 .skill-card p {
   font-size: 1.2rem;
