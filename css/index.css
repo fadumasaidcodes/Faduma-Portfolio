@@ -93,7 +93,7 @@ section h2 {
   font-size: 50px;
 }
 .intro-section {
-  height: 50vh;
+  height: 55vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -112,10 +112,25 @@ section h2 {
   flex-direction: column;
 }
 
+.btn-outline-light {
+  color: #f8f9fa;
+  border-color: #73716e;
+margin-bottom: 20px;
+  margin-left: 20px;
+}
 
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
 
-
-
+}
+.btn-primary-intro {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  margin-top: 20px;
+}
 /* Navigation bar styles ============= */
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
