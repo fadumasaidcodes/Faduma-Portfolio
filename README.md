@@ -7,16 +7,19 @@ Welcome to my UX and UI Bootstrap Portfolio, a repository for a visually stunnin
 ## Table of Contents 
 * [Strategy](#Strategy) 
 * [Content](#Content) 
-* [UserStories](#User Stories)
+* [UserStories](#UserStories)
 * [Scope](#Scope)
 * [Phases](#Phases)
 * [Structure](#Structure)
 * [Skeleton](#Skeleton)
-* [UserDesign](#User Design)
+* [UserDesign](#UserDesign)
 * [Usage](#Usage)
 * [Deployment](#Deployment)
 * [Credits](#Credits)
 * [License](#License)
+
+
+## Goal
 
 The goal of this project was to create a professional portfolio that showcases my skills and expertise in UX and UI design. The site should be easy to use, visually appealing, and provide a clear overview of my work and experience.
 
