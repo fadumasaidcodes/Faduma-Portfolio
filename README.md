@@ -40,6 +40,7 @@ The content for this website is organized into several key sections, including:
 
 ## User Stories
 
+```
 As a user, I want to:
 
 *   Easily navigate the site and find the information I need.
@@ -47,6 +48,7 @@ As a user, I want to:
 *   View samples of the designer's previous work.
 *   Easily contact the designer for more information.
 
+```
 ## Scope
 
 The scope of this project was to create a portfolio website that is both visually appealing and user-friendly. The site should be responsive and provide a seamless experience across all devices.
