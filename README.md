@@ -32,8 +32,8 @@ The strategy for this project was to create a site that is both visually appeali
 The content for this website is organized into several key sections, including:
 
 *   Navigation Bar: A clear and intuitive navigation menu that allows users to easily find the information they need.
-*   Hero Section: A visually appealing section that features my picture, name, and key skills.
-*   Work Section: A grid-based section that showcases my work using Bootstrap cards. Each card includes a brief overview of the project and a link to my class project work.
+*  About me Section: A visually appealing section that features my picture, name, and key skills.
+*  Portfolio/Work Section: A grid-based section that showcases my work using Bootstrap cards. Each card includes a brief overview of the project and a link to my class project work.
 *   Skills Section: A list of the skills that I have learned and expect to learn during the bootcamp.
 *   About/Contact Section: An About Me section that provides more information about my professional experience and a contact form for users to get in touch.
 *   Footer Section: A section that includes hyperlinks and buttons with hover effects.
