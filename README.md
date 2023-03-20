@@ -44,8 +44,8 @@ The content for this website is organized into several key sections, including:
 As a user, I want to:
 
 *   Easily navigate the site and find the information I need.
-*   See a clear overview of the designer's skills and experience.
-*   View samples of the designer's previous work.
+*   See a clear overview of the Web developer's skills and experience.
+*   View samples of the Web developer previous work.
 *   Easily contact the designer for more information.
 
 ```
