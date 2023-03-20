@@ -46,7 +46,7 @@ As a user, I want to:
 *   Easily navigate the site and find the information I need.
 *   See a clear overview of the Web developer's skills and experience.
 *   View samples of the Web developer previous work.
-*   Easily contact the designer for more information.
+*   Easily contact the Web developer for more information.
 
 ```
 ## Scope
