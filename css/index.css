@@ -105,12 +105,7 @@ section h2 {
   color: white !important;
 }
 
-.intro-section .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
+
 
 .btn-outline-light {
   color: #f8f9fa;
@@ -431,4 +426,11 @@ card-header:first-child {
 }
 .contact-card {
   margin-right: 900px;
+}
+
+@media (max-width: 500px) { /* adjust to target the screen width of the iPhone 5C */
+  .intro-heading {
+    padding-top: 55px !important; /* 2rem = 32px (assuming 1rem = 16px) */
+    font-size: 19.2px !important; /* 1.2rem = 19.2px (assuming 1rem = 16px) */
+  }
 }
