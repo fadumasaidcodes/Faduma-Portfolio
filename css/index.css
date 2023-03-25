@@ -93,7 +93,7 @@ section h2 {
   font-size: 50px;
 }
 .intro-section {
-  height: 1200vh;
+  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,6 +104,7 @@ section h2 {
   background-position: 50% 50%;
   color: white !important;
 }
+
 
 
 
@@ -427,66 +428,62 @@ card-header:first-child {
 .contact-card {
   margin-right: 900px;
 }
-.intro-text-container {
-  margin-top: 100px;
-}
 
 .intro-text {
-  font-size: 30px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.typing-container {
-  display: inline-block;
-  overflow: hidden;
-  position: relative;
-}
-
-.typing-text {
-  display: inline-block;
-  white-space: nowrap;
-  font-size: 30px;
   font-weight: bold;
-  color: #fff;
-  margin: 0;
-  animation: typing 4s steps(60, end);
+  font-size: 1.0em;
+  color:#ff8bff;
 }
 
-.typing-cursor {
-  position: absolute;
-  top: 0;
-  right: -10px;
-  width: 10px;
-  height: 100%;
-  background-color: #fff;
-  animation: blink 0.75s step-end infinite;
-}
+.intro-heading {
+margin-bottom: 30px;
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
 }
-
-@keyframes blink {
-  from,
-  to {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-}
-
 @media (max-width: 375px) {
   .intro-heading {
     padding-top: 60px !important;
     margin-top: 20px !important;
     font-size: 19.2px !important;
+  }
+}
+/* adds typewriter effect to intro-text above 1000px */
+@media only screen and (min-width:1000px){
+  .intro-text {
+      overflow: hidden;
+      /* Ensures the content is not revealed until the animation */
+      white-space: nowrap;
+      /* Keeps the content on a single line */
+      margin: 0 auto;
+      /* Gives that scrolling effect as the typing happens */
+      letter-spacing: .15em;
+      /* Adjust as needed */
+      animation:
+          typing 5s steps(40, end),
+          blink-caret .75s step-end infinite;
+  }
+
+  /* The typing effect */
+  @keyframes typing {
+      from {
+          width: 0
+      }
+
+      to {
+          width: 100%
+      }
+  }
+
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+
+      from,
+      to {
+          border-color: transparent
+      }
+
+      50% {
+          border-color: white;
+      }
   }
 }
 
