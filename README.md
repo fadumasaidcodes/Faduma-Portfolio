@@ -68,11 +68,13 @@ The project was completed in several phases, including:
 The site has a clear and intuitive structure that is easy to navigate. The navigation bar is located at the top of the page and includes links to the different sections of the site. The sections are organized in a logical order, starting with the hero section and ending with the footer section.
 
 ## Screenshots
-![Screenshot 2023-03-25 at 21 19 15](https://user-images.githubusercontent.com/102771343/227780283-a5b519f1-fa93-4b27-98d0-986e54df9a5c.png)
+
 ![Screenshot 2023-03-25 at 21 38 11](https://user-images.githubusercontent.com/102771343/227780317-7096e700-609f-4f14-8176-8a7ca346fd20.png)
 ![Screenshot 2023-03-25 at 21 38 23](https://user-images.githubusercontent.com/102771343/227780349-e075577b-bfdf-4719-bac5-44c50cefa2bc.png)
 ![Screenshot 2023-03-25 at 21 38 47](https://user-images.githubusercontent.com/102771343/227780359-8f1bd647-258c-4a4e-9e5a-c9d3c8cf9493.png)
 ![Screenshot 2023-03-25 at 21 38 59](https://user-images.githubusercontent.com/102771343/227780374-19bb7374-68fd-40ed-aff4-5fba8251eacb.png)
+![Screenshot contact](https://user-images.githubusercontent.com/102771343/227780555-65ce47a9-18d1-4f9c-a1ae-c701ea83ec3f.png)
+
 ## Skeleton
 
 The site was designed using wireframes and mockups to ensure that the layout and design were visually appealing and easy to use. The wireframes were created using Balsamiq, while the mockups were created using Adobe XD.
