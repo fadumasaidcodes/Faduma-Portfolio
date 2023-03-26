@@ -70,7 +70,7 @@ The site has a clear and intuitive structure that is easy to navigate. The navig
 ## Screenshots
 
 ![Screenshot 2023-03-25 at 21 38 11](https://user-images.githubusercontent.com/102771343/227780317-7096e700-609f-4f14-8176-8a7ca346fd20.png)
-![Screenshot about](https://user-images.githubusercontent.com/102771343/227780983-b6ce2dd9-b14b-4352-8746-86b8cb471937.png)
+![Screenshot About-me](https://user-images.githubusercontent.com/102771343/227791616-1566813d-5988-41e2-972a-8f30877e7eb0.png)
 ![Screenshot 2023-03-25 at 21 38 47](https://user-images.githubusercontent.com/102771343/227780359-8f1bd647-258c-4a4e-9e5a-c9d3c8cf9493.png)
 ![Screenshot 2023-03-25 at 21 38 59](https://user-images.githubusercontent.com/102771343/227780374-19bb7374-68fd-40ed-aff4-5fba8251eacb.png)
 ![Screenshot contact](https://user-images.githubusercontent.com/102771343/227780555-65ce47a9-18d1-4f9c-a1ae-c701ea83ec3f.png)
